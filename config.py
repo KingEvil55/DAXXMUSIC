@@ -12,8 +12,8 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐃ɛʂꙷʈͦɪͧղͬ𝐘... ᴍᴜsɪᴄ")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002073587055"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ɪssᴇɪ ʜʏᴏᴜᴅᴏ ᴍᴜsɪᴄ")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1138802391").split()))
 
@@ -24,8 +24,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/KingEvil55/DAXXMUSIC
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/miss_x_network")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/check_my_groups01")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Animes_in_hindi_dub")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+WuikBFYzK502MmI1")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -75,11 +75,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/75251a1a471d209e4269b.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/4547f2ba315c56d946601.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/18713151d6721b75249ed.jpg",
+    "https://telegra.ph/file/1cab7d79cddfd37e86503.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
