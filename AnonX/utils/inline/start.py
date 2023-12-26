@@ -27,8 +27,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(text="Hᴇʟᴘ", callback_data="settings_back_helper"),
         ],
         [
-            InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP),
-            InlineKeyboardButton(text="Sᴜɢᴀʀ Dᴀᴅᴅʏ", user_id=OWNER),
+            InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ_ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP),
+        ],
+        [
+            InlineKeboardButton(text="sᴜᴘᴘᴏʀᴛ_ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Animes_in_hindi_dub",),
+        ],
+        [
+            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=OWNER),
         ],
      ]
     return buttons
