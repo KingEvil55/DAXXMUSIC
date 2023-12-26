@@ -30,7 +30,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ_ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP),
         ],
         [
-            InlineKeboardButton(text="sᴜᴘᴘᴏʀᴛ_ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Animes_in_hindi_dub",),
+            InlineKeboardButton(text="sᴜᴘᴘᴏʀᴛ_ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
         ],
         [
             InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=OWNER),
