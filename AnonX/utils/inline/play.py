@@ -32,7 +32,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 80 <= anon < 95:
         bar = "————————🎧—"
     else:
-        bar = "—————————khtm🥺"
+        bar = "—————————END🥺"
 
     buttons = [
         [
@@ -69,7 +69,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/imnot_avanish"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/harryx1"
             )
         ],
         [
@@ -139,7 +139,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/imnot_avanish"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/harryx1"
             )
         ],
         [
@@ -162,7 +162,7 @@ def stream_markup(_, videoid, chat_id):
                 text="Ⅱ", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="♡♡", callback_data=f"add_playlist {videoid}"
+                text="♡", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
                 text="⏭", callback_data=f"ADMIN Skip|{chat_id}"
@@ -181,7 +181,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/imnot_avanish"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/harryx1"
             )
         ],
         [
@@ -220,7 +220,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/imnot_avanish"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/harryx1"
             )
         ],
         [
@@ -352,7 +352,7 @@ close_keyboard = InlineKeyboardMarkup(
                         text="ᴄʟᴏꜱᴇ", callback_data="close"
                     ),
                     InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/imnot_avanish"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/harryx1"
                     )
                 ]    
             ]
@@ -372,7 +372,7 @@ def queue_markup(_, videoid, chat_id):
                 text="Ⅱ", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="♡♡", callback_data=f"add_playlist {videoid}"
+                text="♡", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
                 text="⏭", callback_data=f"ADMIN Skip|{chat_id}"
@@ -391,7 +391,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/imnot_avanish"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/harryx1"
             )
         ],
         [
