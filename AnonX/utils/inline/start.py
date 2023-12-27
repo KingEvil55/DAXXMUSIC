@@ -32,7 +32,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(text="ɢʀᴏᴜᴘ 1", url=config.SUPPORT_GROUP),
-            InlineKeyBoardButton(text="ɢʀᴏᴜᴘ 2", url=f"https://t.me/AppoloXCommunity",),
+            InlineKeyboardButton(text="ɢʀᴏᴜᴘ 2", url=f"https://t.me/AppoloXCommunity",),
         ],   
         [  
             InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=OWNER),
