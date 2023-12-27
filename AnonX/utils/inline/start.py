@@ -36,7 +36,6 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],   
         [  
             InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=OWNER),
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 2", url=f"https://t.me/Shouyo_ishida",),
         ],
      ]
     return buttons
