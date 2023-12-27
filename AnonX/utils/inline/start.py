@@ -28,7 +28,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [    
             InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 1", url=f"https://t.me/Animes_in_hindi_dub",),
-            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 2", url=f"https://t.me/+W3EAeX38Yr8wNTI9",),
+            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 2", url=f"https://t.me/All_In_Hindi_Dubbed",),
         ],
         [
             InlineKeyboardButton(text="ɢʀᴏᴜᴘ 1", url=config.SUPPORT_GROUP),
