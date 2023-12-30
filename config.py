@@ -24,8 +24,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/KingEvil55/DAXXMUSIC
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Animes_in_hindi_dub")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+WuikBFYzK502MmI1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AppoloBotsUpdates")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AppoloXCommunity")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -79,7 +79,7 @@ START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/5c5210333e81581
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/1cab7d79cddfd37e86503.jpg",
+    "https://telegra.ph/file/5e7d4dfea180002c236f5.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
