@@ -11,7 +11,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(text="Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",url=f"https://t.me/{BOT_USERNAME}?startgroup=true",),
         ],
         [
-            InlineKeyboardButton(text="Hᴇʟᴘ",callback_data="settings_back_helper",),
+            InlineKeyboardButton(text="Hᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs 📚",callback_data="settings_back_helper",),
             InlineKeyboardButton(text="Sᴇᴛᴛɪɴɢs", callback_data="settings_helper"),
         ],
      ]
@@ -24,13 +24,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(text="Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ",url=f"https://t.me/{BOT_USERNAME}?startgroup=true",),
         ],
         [
-            InlineKeyboardButton(text="Hᴇʟᴘ", callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="Hᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs 📚", callback_data="settings_back_helper"),
         ],
         [
             InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP),
+            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/AppoloBotsUpdates",),
         ],   
         [  
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=OWNER),
+            InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER),
         ],
      ]
     return buttons
