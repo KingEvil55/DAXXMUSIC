@@ -69,11 +69,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/harryx1"
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text="ᴄʟᴏꜱᴇ", callback_data=f"close"
             )
         ],
@@ -139,11 +134,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/harryx1"
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text="ᴄʟᴏꜱᴇ", callback_data=f"close"
             )
         ],
@@ -181,11 +171,6 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/harryx1"
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text="ᴄʟᴏꜱᴇ", callback_data=f"close"
             )
         ],
@@ -216,11 +201,6 @@ def telegram_markup(_, chat_id):
             ),
             InlineKeyboardButton(
                 text="ᴜᴘᴅᴀᴛᴇs 🍷", url=config.SUPPORT_CHANNEL
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/harryx1"
             )
         ],
         [
@@ -351,9 +331,6 @@ close_keyboard = InlineKeyboardMarkup(
                     InlineKeyboardButton(
                         text="ᴄʟᴏꜱᴇ", callback_data="close"
                     ),
-                    InlineKeyboardButton(
-                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/harryx1"
-                    )
                 ]    
             ]
         )
@@ -387,11 +364,6 @@ def queue_markup(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="ᴜᴘᴅᴀᴛᴇs 🍷", url=config.SUPPORT_CHANNEL
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/harryx1"
             )
         ],
         [
