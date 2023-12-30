@@ -24,11 +24,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 40 <= anon < 50:
         bar = "————🎧—————"
     elif 50 <= anon < 60:
-        bar = "—————🎧😇————"
+        bar = "—————🎧————"
     elif 60 <= anon < 70:
-        bar = "——————🎧——"
+        bar = "——————🎧———"
     elif 70 <= anon < 80:
-        bar = "——————😇💞——"
+        bar = "————————🎧—"
     elif 80 <= anon < 95:
         bar = "————————🎧—"
     else:
@@ -69,7 +69,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/harryx1"
+                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/harryx1"
             )
         ],
         [
@@ -89,23 +89,23 @@ def telegram_markup_timer(_, chat_id, played, dur):
     if 0 < anon <= 10:
         bar = "sTART—————————"
     elif 10 < anon < 20:
-        bar = "—𝙸𝚖𝙽𝚘𝚝————————"
+        bar = "—o————————"
     elif 20 <= anon < 30:
-        bar = "——💗🤝———————"
+        bar = "——o———————"
     elif 30 <= anon < 40:
-        bar = "———⏯️🎵——————"
+        bar = "———o——————"
     elif 40 <= anon < 50:
-        bar = "————chal rha hu—————"
+        bar = "————o—————"
     elif 50 <= anon < 60:
-        bar = "—————🤪💗🤝————"
+        bar = "—————o————"
     elif 60 <= anon < 70:
-        bar = "——————baby💗🤪———"
+        bar = "——————o———"
     elif 70 <= anon < 80:
-        bar = "———————KHTM HONE WALA H——"
+        bar = "———————o——"
     elif 80 <= anon < 95:
-        bar = "————————🥺😇🎧💞—"
+        bar = "————————o—"
     else:
-        bar = "—————————MUsIC khtm"
+        bar = "—————————END🔚"
 
     buttons = [
         [
@@ -139,7 +139,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/harryx1"
+                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/harryx1"
             )
         ],
         [
@@ -181,7 +181,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/harryx1"
+                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/harryx1"
             )
         ],
         [
@@ -220,7 +220,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/harryx1"
+                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/harryx1"
             )
         ],
         [
@@ -352,7 +352,7 @@ close_keyboard = InlineKeyboardMarkup(
                         text="ᴄʟᴏꜱᴇ", callback_data="close"
                     ),
                     InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/harryx1"
+                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/harryx1"
                     )
                 ]    
             ]
@@ -391,7 +391,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/harryx1"
+                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/harryx1"
             )
         ],
         [
